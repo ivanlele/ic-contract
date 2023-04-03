@@ -9,6 +9,8 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
+hex = "0.4"
 candid = "0.8.2"
 ic-cdk = "0.6.0"
 ic-cdk-macros = "0.6.0"
+ic-web3 = { git = "https://github.com/rocklabs-io/ic-web3" }

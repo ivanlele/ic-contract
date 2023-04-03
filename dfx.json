@@ -4,19 +4,6 @@
       "candid": "src/ethereum_backend/ethereum_backend.did",
       "package": "ethereum_backend",
       "type": "rust"
-    },
-    "ethereum_frontend": {
-      "dependencies": [
-        "ethereum_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/ethereum_frontend/src/index.html"
-      },
-      "source": [
-        "src/ethereum_frontend/assets",
-        "dist/ethereum_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
