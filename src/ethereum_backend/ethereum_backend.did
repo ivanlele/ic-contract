@@ -3,4 +3,6 @@ type Result = variant { Ok : text; Err : text };
 service : {
     send_eth : (text, nat64) -> (Result);
     get_canister_addr : () -> (Result);
+    get_eth_price : () -> (Result);
+    send_eth_with_payload : (text, nat64) -> (Result);
 }
